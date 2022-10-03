@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Universe Explorer</title>
+  <script src="include/timer.js"></script>
+  <script src="include/tiles.js"></script>
+  <script src="include/menucontrol.js"></script>
+  <script src="include/p5.js"></script>
+  <script type="module">
+    import Swal from '/sweetalert2/src/sweetalert2.js'
+  </script>
+  <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="include/p5.SceneManager.js"></script>
+  <script src="include/p5.play.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.css">
+
+  
+
+</head>
+
+<body>
+  <div class="game">
+    <canvas id="gamecanvas" width="0" height="0" class="gamelayer">
+    </canvas>
+    <div class="menuExterior">
+      <div style="text-align: center;margin: auto;">
+        <img src="./assets/images/logo.png" class=imageLogo></img>
+      </div>
+      <div class="menuInterior">
+        <img class="imgGrid" src="./assets/images/grid.png">
+        <label class="cards" id="idDeckcards">0</label>
+        <img class="imgHour" src="./assets/images/hourglass.png">
+        <span class="time" id="timer">00:00</span>
+      </div>
+      <span style="margin: 20px;">
+        <p class="title">JOGADORES</p>
+        <div>
+          <div class="menuExteriorJogador">
+            <div class="menuInteriorJogador">
+
+              <div style="display: table; height: 56px; overflow: hidden;">
+                <div style="display: table-cell; vertical-align: middle;">
+                  <div>
+                    <img src="./assets/images/iconsusers/user1.png" style="vertical-align:middle" width=28, height=28>
+                    <div class="player" id="player1"></div>
+                    <img src="./assets/images/iconcristals/cristal1.png" style="vertical-align:middle" width=28, height=28 style="margin-left:10px">
+                    <div class="cristals" id="cristals1"></div>
+                    <div class="cartasjogador">
+                    <div id="compradas1"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="menuExteriorJogador">
+            <div class="menuInteriorJogador">
+
+              <div style="display: table; height: 56px; overflow: hidden;">
+                <div style="display: table-cell; vertical-align: middle;">
+                  <div style="display: table; height: 56px; overflow: hidden;">
+                    <div style="display: table-cell; vertical-align: middle;">
+                      <img src="./assets/images/iconsusers/user2.png" style="vertical-align:middle" width=28, height=28>
+                      <div class="player" id="player2"></div>
+                      <img src="./assets/images/iconcristals/cristal2.png" style="vertical-align:middle" width=28, height=28 style="margin-left:10px">
+                      <div class="cristals" id="cristals2"></div>
+                      <div class="cartasjogador">
+                      <div id="compradas2"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+
+          <div class="menuExteriorJogador">
+            <div class="menuInteriorJogador">
+              <div style="display: table; height: 56px; overflow: hidden;">
+                <div style="display: table-cell; vertical-align: middle;">
+                  <img src="./assets/images/iconsusers/user3.png" style="vertical-align:middle" width=28, height=28>
+                  <div class="player" id="player3"></div>
+                  <img src="./assets/images/iconcristals/cristal3.png" style="vertical-align:middle" width=28, height=28 style="margin-left:10px">
+                  <div class="cristals" id="cristals3"></div>
+                  <div class="cartasjogador">
+                  <div id="compradas3"></div>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+
+          <div class="menuExteriorJogador">
+            <div class="menuInteriorJogador">
+              <div style="display: table; height: 56px; overflow: hidden;">
+                <div style="display: table-cell; vertical-align: middle;">
+                  <img src="./assets/images/iconsusers/user4.png" style="vertical-align:middle" width=28, height=28>
+                  <div class="player" id="player4"></div>
+                  <img src="./assets/images/iconcristals/cristal4.png" style="vertical-align:middle" width=28, height=28 style="margin-left:10px">
+                  <div class="cristals" id="cristals4"></div>
+                  <div class="cartasjogador">
+                  <div id="compradas4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+          </div>
+ </div>
+      </span>
+      <p class="title">CARTAS USADAS</p>
+      <div class="menuExteriorCartas">
+        <div class="circ circ1" id="circulo2"></div>
+        <div class="circ circ2" id="circulo7"></div>
+        <div class="circ circ3" id="circulo8"></div>
+        <div class="circ circ4" id="circulo9"></div>
+        <div class="circ circ5" id="circulo11"></div>
+        <div class="circ circ6" id="circulo13"></div>
+        <div class="circ circ7" id="circulo16"></div>
+        <div class="circ circ8" id="circulo17"></div>
+        <div class="circ circ9" id="circulo24"></div>
+        <div class="circ circ10" id="circulo25"></div>
+        <div class="circ circ11" id="circulo29"></div>
+        <div class="circ circ12" id="circulo31"></div>
+        <div class="circ circ13" id="circulo32"></div>
+        <div class="circ circ14" id="circulo36"></div>
+        <div class="circ circ15" id="circulo37"></div>
+        <div class="circ circ16" id="circulo38"></div>
+      </div>
+
+      <p class="title">TERMINAR TURNO</p>
+  <div class="controls">
+  <buttom id="btnNextPlayer" onclick= "finishTurn()"><img src="./assets/images/next.png" width=40 height=40 style="margin:auto; padding:5px;"></buttom>
+</div>
+    </div>
+    <div id="messageWelcome"></div>
+  </div>
+
+  </div>
+  </div>
+</body>
+
+</html>

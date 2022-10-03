@@ -1,0 +1,245 @@
+body {
+  background: url("../assets/images/board.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.game {
+  position: absolute;
+  padding-left: 1020px;
+}
+
+.imageLogo {
+  margin: 20px 10px 20px 20px;
+  width: 300px;
+}
+
+.menuExterior {
+  float: right;
+  width: calc(100em - 1115px);
+  min-width: 250px;
+  min-height: 56em;
+  border-radius: 10px;
+  background: #2471a3;
+}
+.menuInterior {
+  text-align: center;
+   margin: 0 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.menuExteriorJogador {
+  margin: 10px;
+  width: calc(calc(100em - 1160px) / 2);
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+}
+
+.menuInteriorJogador {
+   padding: 10px;
+   white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  border-radius: 10px;
+  background-color: #aed6f1;
+}
+
+.cartasjogador{
+   width: calc(calc(100em - 1261px) / 2);
+   margin: 5px;
+   padding: 10px;
+   border-radius: 10px;
+   background: white;
+}
+
+.player {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2471a3;
+}
+
+.cristals {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2471a3;
+}
+
+#timer {
+  font-size: 1.5em;
+  color: #2471a3;
+}
+
+.title {
+  margin: 20px;
+  height: 0px;
+  color: #aed6f1;
+}
+
+.cards {
+  font-size: 1.5em;
+  margin: 20px 30px 20px 5px;
+  display: inline-block;
+  color: #2471a3;
+}
+
+.menuExteriorCartas {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.imgGrid {
+  width: 15px;
+  height: 15px;
+  padding-left: 15px;
+  display: inline-block;
+  padding-top: 6px;
+}
+
+.imgHour {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+  display: inline-block;
+  color: #2471a3;
+}
+
+.welcome{
+    float: right;
+    width: calc(100em - 1115px);
+    min-width: 250px;
+    min-height: 56em;
+    border-radius: 10px;
+    background: #2471a3;
+}
+
+.circ {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #aed6f1 !important;
+  margin: 5px;
+  display: inline-block;
+}
+
+.circ1 {
+  background: url("./../assets/images/iconsplanets/icon_1.png");
+}
+
+.circ2 {
+  background: url("./../assets/images/iconsplanets/icon_2.png");
+}
+
+.circ3 {
+  background: url("./../assets/images/iconsplanets/icon_3.png");
+}
+
+.circ4 {
+  background: url("./../assets/images/iconsplanets/icon_4.png");
+}
+
+.circ5 {
+  background: url("./../assets/images/iconsplanets/icon_5.png");
+}
+.circ6 {
+  background: url("./../assets/images/iconsplanets/icon_6.png");
+}
+.circ7 {
+  background: url("./../assets/images/iconsplanets/icon_7.png");
+}
+.circ8 {
+  background: url("./../assets/images/iconsplanets/icon_8.png");
+}
+.circ9 {
+  background: url("./../assets/images/iconsplanets/icon_9.png");
+}
+.circ10 {
+  background: url("./../assets/images/iconsplanets/icon_10.png");
+}
+.circ11 {
+  background: url("./../assets/images/iconsplanets/icon_11.png");
+}
+.circ12 {
+  background: url("./../assets/images/iconsplanets/icon_12.png");
+}
+.circ13 {
+  background: url("./../assets/images/iconsplanets/icon_13.png");
+}
+.circ14 {
+  background: url("./../assets/images/iconsplanets/icon_14.png");
+}
+.circ15 {
+  background: url("./../assets/images/iconsplanets/icon_15.png");
+}
+.circ16 {
+  background: url("./../assets/images/iconsplanets/icon_16.png");
+}
+
+.controls{
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(213, 219, 216);
+  text-align: center;
+}
+
+#btnNextPlayer:hover{
+  background: #aed6f1;
+  width: 50px;
+  height: 50px;
+}
+
+html.swal2-shown,
+body.swal2-shown {
+  overflow-y: hidden !important;
+  width: 900px !important;
+  height: 900px !important;
+}
+
+.swal2-modal {
+  margin-left: 145px !important;
+  margin-top: 160px !important;
+  background: white !important;
+  font-size: 1.2em !important;
+}
+
+
+.swal2-container.swal2-backdrop-show {
+  background:rgba(0,0,0,0.7) !important;
+  width: 900px !important;
+  height: 900px !important;
+}
+
+.swal-button:focus {
+  box-shadow: none;
+}
+
+.swal2-title{
+  font-size: 1.3em !important;
+  font-family: Cambria !important;
+  font-weight: lighter !important;
+  color: #2471a3 !important;
+}
+
+.leaderboard{
+  width: 900px;
+  height: 900px;
+  position: absolute;
+  background: #2471a3;
+}
+
+/*Pagina Inicial*/
+

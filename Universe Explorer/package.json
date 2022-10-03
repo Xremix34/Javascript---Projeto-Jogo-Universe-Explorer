@@ -1,0 +1,24 @@
+{
+  "name": "universe_explorer",
+  "version": "1.0.1",
+  "description": "Game Board",
+  "main": "index.js",
+  "scripts": {
+    "app": "nodemon ./bin/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mongoose": "^5.7.12",
+    "p5": "^0.10.2",
+    "socket.io": "^2.3.0",
+    "sweetalert2": "^9.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
