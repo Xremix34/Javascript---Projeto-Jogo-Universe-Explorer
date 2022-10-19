@@ -16,7 +16,8 @@
 
 ## Descrição
 
-> Este jogo foi baseado no monopoly, em que permite percorrer um tabueiro com 4 jogadores, em que objetivo é conseguir comprar o máximo de planetas possíveis sem ficar com recursos.
+> Este jogo foi desenvolvido com a ajuda de mais dois integrantes, João Lopes e João Gaspar em que o objetivo foi criar um jogo baseado no monopoly, em que o jogador tem de percorrer um tabueiro entre 2 a 4 jogadores.
+O seu objetivo é conseguir comprar o máximo de planetas possíveis sem ficar sem recursos.
 
 #### Tecnologias e Ferramentas
 
