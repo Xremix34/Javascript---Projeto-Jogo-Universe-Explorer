@@ -1,4 +1,4 @@
-# Javascript---Projeto-Jogo-Universe-Explorer
+# <p><center>Universe Explorer</center></p>
 Projeto de um jogo Universe Explorer desenvolvido em JavaScript
 
 # <p align="center">Universe Explorer</p>
