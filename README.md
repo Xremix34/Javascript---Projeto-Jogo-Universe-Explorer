@@ -36,6 +36,7 @@
 
 #### Instalação
 - <p>Copiar a pasta para o diretório desejado no computador.</p>
+- ```Git git clone https://github.com/Xremix34/Javascript---Projeto-Jogo-Universe-Explore.git```
 - <p>Ir na pasta Universe Explorer -> src e executar o ficheiro iniciar.bat para iniciar o servidor.</p>
 - <p>Inserir na barra de pesquisa do browser o seguinte endereço: localhost ou Endereço IP do computador:<número da porta dada pelo servidor>. </p>
 ---
