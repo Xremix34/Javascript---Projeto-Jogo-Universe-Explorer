@@ -21,7 +21,7 @@
 #### Tecnologias e Ferramentas
 
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-- ![P5.js]
+- ![p5-sq-reverse-filled](https://user-images.githubusercontent.com/92939227/196686795-e36235e3-59eb-436d-bed0-26c0fe088ee9.png)
 - ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 
 [Voltar ao Início](#Universe-Explorer)
