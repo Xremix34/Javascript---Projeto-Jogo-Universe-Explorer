@@ -29,19 +29,15 @@
 ---
 
 ## Requisitos
-- PyCharm(https://www.jetbrains.com/pycharm/)
-- MySQL Workbench(https://www.mysql.com/products/workbench/)
+- Node.js(https://nodejs.org)
 ---
 
 ## Como utilizar
 
 #### Instalação
 - <p>Copiar a pasta para o diretório desejado no computador.</p>
-- <p>Instalar o python 3 e o MySql Workbench.</p>
-- <p>Abrir o MySql Workbench para importar o modelo 'stockFinal.mwb' que se encontra na pasta modelos. </p>
-- <p>Ir em 'Database', depois 'Connect Data Base' para estabelecer a conecção com a base de dados.</p>
-- <p>Iniciar o programa deve abrir o ficheiro menu.py num IDE compatível com a linguagem python para executar o programa ou utilizar o terminal utilizando o comando python.</p>
-
+- <p>Ir na pasta Universe Explorer -> src e executar o ficheiro iniciar.bat para iniciar o servidor.</p>
+- <p>Inserir na barra de pesquisa do browser o seguinte endereço: localhost ou Endereço IP do computador:<número da porta dada pelo servidor>. </p>
 ---
 
 ## Autores
