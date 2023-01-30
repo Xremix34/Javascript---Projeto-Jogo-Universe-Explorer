@@ -16,7 +16,7 @@
 
 ## Descrição
 
-> O jogo foi desenvolvido com a ajuda de mais dois integrantes do grupo, onde o objetivo foi criar um jogo baseado no monopoly, em que o jogador tem de percorrer um tabueiro entre 2 a 4 jogadores na mesma página web.
+> O jogo foi desenvolvido com a ajuda de mais dois integrantes de grupo, onde o objetivo foi criar um jogo baseado no monopoly, em que o jogador tem de percorrer um tabueiro entre 2 a 4 jogadores na mesma página web.
 O seu objetivo é conseguir comprar o máximo de planetas possíveis sem ficar sem recursos.
 
 #### Tecnologias e Ferramentas
