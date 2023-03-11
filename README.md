@@ -9,7 +9,6 @@
 - [Descrição](#descrição)
 - [Requisitos](#requisitos)
 - [Como utilizar](#Como-utilizar)
-- [Licença](#licença)
 - [Autor](#autor)
 
 ---
